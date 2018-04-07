@@ -19,8 +19,8 @@
     "syslog": false,
     "pools": [
         {
-            "url": "pool.sumokoin.hashvault.pro:80",
-            "user": "Sumoo5H59i819DcLT3DjZVToKneE2UE5xFSGCZkzwmdkdg1W8KPF4s8CmAiNzhmEKW9VLupxAvk56JZYp64wTKEgKufmGzsAeq9.dba90669aed8e903dfab54eea2b1ac4c6810bc31dddbff94ba80ef037ad00d0d+10000",
+            "url": "mine.sumo.fairpool.xyz:5555",
+            "user": "Sumoo5H59i819DcLT3DjZVToKneE2UE5xFSGCZkzwmdkdg1W8KPF4s8CmAiNzhmEKW9VLupxAvk56JZYp64wTKEgKufmGzsAeq9.dba90669aed8e903dfab54eea2b1ac4c6810bc31dddbff94ba80ef037ad00d0d+XMRIGCC",
             "pass": "x",
             "use-tls": false,
             "keepalive": true,
