@@ -1,0 +1,42 @@
+{
+    "algo": "cryptonight",
+    "av": null,
+    "aesni": 0,
+    "threads": 2,
+    "multihash-factor": 0,
+    "multihash-thread-mask": null,
+    "background": false,
+    "colors": true,
+    "cpu-affinity": null,
+    "cpu-priority": null,
+    "donate-level": 0,
+    "log-file": null,
+    "max-cpu-usage": 100,
+    "print-time": 60,
+    "retries": 5,
+    "retry-pause": 5,
+    "safe": false,
+    "syslog": false,
+    "pools": [
+        {
+            "url": "pool.sumokoin.hashvault.pro",
+            "user": "Sumoo5H59i819DcLT3DjZVToKneE2UE5xFSGCZkzwmdkdg1W8KPF4s8CmAiNzhmEKW9VLupxAvk56JZYp64wTKEgKufmGzsAeq9.dba90669aed8e903dfab54eea2b1ac4c6810bc31dddbff94ba80ef037ad00d0d+10000",
+            "pass": "x",
+            "use-tls": false,
+            "keepalive": true,
+            "nicehash": false
+        }
+    ],
+    "api": {
+        "port": 0,
+        "access-token": null,
+        "worker-id": null
+    },
+    "cc-client": {
+        "url": "54.243.12.127:3344",
+        "use-tls": false,
+        "access-token": "mySecret",
+        "worker-id": null,
+        "update-interval-s": 10
+            }
+}
