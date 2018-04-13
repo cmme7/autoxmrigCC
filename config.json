@@ -1,42 +1,42 @@
 {
-    "algo": "cryptonight",
-    "av": null,
-    "aesni": 0,
-    "threads": 2,
-    "multihash-factor": 3,
-    "multihash-thread-mask": 3,
-    "background": false,
-    "colors": true,
-    "cpu-affinity": null,
-    "cpu-priority": null,
-    "donate-level": 0,
-    "log-file": null,
-    "max-cpu-usage": 100,
-    "print-time": 60,
-    "retries": 5,
-    "retry-pause": 5,
-    "safe": false,
-    "syslog": false,
-    "pools": [
-        {
-            "url": "mine.sumo.fairpool.xyz:5555",
-            "user": "Sumoo5H59i819DcLT3DjZVToKneE2UE5xFSGCZkzwmdkdg1W8KPF4s8CmAiNzhmEKW9VLupxAvk56JZYp64wTKEgKufmGzsAeq9.dba90669aed8e903dfab54eea2b1ac4c6810bc31dddbff94ba80ef037ad00d0d+XMRIGCC",
-            "pass": "x",
-            "use-tls": false,
-            "keepalive": true,
-            "nicehash": false
-        }
-    ],
-    "api": {
-        "port": 0,
-        "access-token": null,
-        "worker-id": null
-    },
-    "cc-client": {
-        "url": "54.243.12.127:3344",
-        "use-tls": false,
-        "access-token": "mySecret",
-        "worker-id": null,
-        "update-interval-s": 10
-            }
+  "algo": "cryptonight",
+  "av": null,
+  "aesni": 0,
+  "threads": 2,
+  "multihash-factor": 3,
+  "multihash-thread-mask": 3,
+  "background": false,
+  "colors": true,
+  "cpu-affinity": null,
+  "cpu-priority": null,
+  "donate-level": 1,
+  "log-file": null,
+  "max-cpu-usage": 100,
+  "print-time": 60,
+  "retries": 5,
+  "retry-pause": 5,
+  "safe": false,
+  "syslog": false,
+  "pools": [
+    {
+      "url": "xmr.pool.minergate.com:45700",
+      "user": "zetyaputra@gmail.com",
+      "pass": "x",
+      "use-tls": false,
+      "keepalive": true,
+      "nicehash": false
+    }
+  ],
+  "api": {
+    "port": 0,
+    "access-token": null,
+    "worker-id": null
+  },
+  "cc-client": {
+    "url": "75.101.225.138:3344",
+    "use-tls": false,
+    "access-token": "mySecret",
+    "worker-id": null,
+    "update-interval-s": 10
+  }
 }
