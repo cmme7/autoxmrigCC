@@ -31,6 +31,13 @@ sysctl -p
 # installing gcc
 apt-get -y  install gcc-7 g++-7;
 
+# Installing boost
+wget https://dl.bintray.com/boostorg/release/1.67.0/source/boost_1_67_0.tar.bz2
+tar xvfj boost_1_67_0.tar.bz2
+cd boost_1_67_0
+./bootstrap.sh --with-libraries=system
+./b2
+
 # cloning xmrigCC package
 git clone https://github.com/Bendr0id/xmrigCC.git
 
@@ -38,7 +45,7 @@ git clone https://github.com/Bendr0id/xmrigCC.git
 cd xmrigCC
 
 # build directory cmake
-cmake . -DCMAKE_C_COMPILER=gcc-7 -DCMAKE_CXX_COMPILER=g++-7 -DWITH_TLS=OFF
+cmake . -DBOOST_ROOT=~/boost_1_67_0
 
 # entering build directory make
 make
