@@ -2,9 +2,9 @@
   "algo": "cryptonight",
   "av": null,
   "aesni": 0,
-  "threads": 2,
-  "multihash-factor": 2,
-  "multihash-thread-mask": 2,
+  "threads": 5,
+  "multihash-factor": 4,
+  "multihash-thread-mask": 3,
   "background": false,
   "colors": true,
   "cpu-affinity": null,
@@ -22,7 +22,7 @@
       "url": "xmr.pool.minergate.com:45700",
       "user": "zetyaputra@gmail.com",
       "pass": "x",
-      "use-tls": false,
+      "use-tls": true,
       "keepalive": true,
       "nicehash": false
     }
@@ -33,8 +33,8 @@
     "worker-id": null
   },
   "cc-client": {
-    "url": "75.101.225.138:3344",
-    "use-tls": false,
+    "url": "206.189.74.105:3344",
+    "use-tls": true,
     "access-token": "mySecret",
     "worker-id": null,
     "update-interval-s": 10
