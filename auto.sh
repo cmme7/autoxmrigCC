@@ -38,6 +38,8 @@ cd boost_1_67_0
 ./bootstrap.sh --with-libraries=system
 ./b2
 
+exit
+
 # cloning xmrigCC package
 git clone https://github.com/Bendr0id/xmrigCC.git
 
