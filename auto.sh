@@ -5,7 +5,7 @@
 cd
 
 # server update & requesting apps install
-apt-get -y  install git build-essential cmake libuv1-dev libmicrohttpd-dev software-properties-common;
+sudo apt-get install git build-essential cmake libuv1-dev libmicrohttpd-dev libssl-dev wget;
 
 # adding gcc repository
 add-apt-repository -y ppa:jonathonf/gcc-7.1;
@@ -33,12 +33,14 @@ apt-get -y  install gcc-7 g++-7;
 
 # Installing boost
 wget https://dl.bintray.com/boostorg/release/1.67.0/source/boost_1_67_0.tar.bz2
-tar xvfj boost_1_67_0.tar.bz2
-cd boost_1_67_0
-./bootstrap.sh --with-libraries=system
-./b2
 
-exit
+tar xvfj boost_1_67_0.tar.bz2
+
+cd boost_1_67_0
+
+./bootstrap.sh --with-libraries=system
+
+./b2
 
 # cloning xmrigCC package
 git clone https://github.com/Bendr0id/xmrigCC.git
