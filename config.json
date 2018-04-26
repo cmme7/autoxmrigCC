@@ -34,7 +34,7 @@
     },
     "cc-client": {
         "url": "206.189.74.105:3344",
-        "use-tls": true,
+        "use-tls": false,
         "access-token": "mySecret",
         "worker-id": null,
         "update-interval-s": 10
