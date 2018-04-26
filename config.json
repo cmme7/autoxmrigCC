@@ -2,8 +2,8 @@
     "algo": "cryptonight",
     "av": null,
     "aesni": 0,
-    "threads": 5,
-    "multihash-factor": 4,
+    "threads": 2,
+    "multihash-factor": 3,
     "multihash-thread-mask": null,
     "background": false,
     "colors": true,
@@ -19,8 +19,8 @@
     "syslog": false,
     "pools": [
         {
-            "url": "pool.electroneum.hashvault.pro:80",
-            "user": "etnkCxJhvaEfD4PyiWP4C3KqWv6fJaYNzGZGVEPhouLRWHKhZBkJxNM72CF6pGXbrWexjUVv7vV73fEE8ryq6FZx7NUb67Pq2K.10000",
+            "url": "xmr.pool.minergate.com:45700",
+            "user": "zetyaputra@gmail.com",
             "pass": "x",
             "use-tls": false,
             "keepalive": true,
