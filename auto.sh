@@ -14,7 +14,7 @@ add-apt-repository -y ppa:jonathonf/gcc-7.1;
 apt-get -y  update;
 
 # install cmake
-apt-get -y install cmake;
+sudo apt-get install cmake3;
 
 # atcivate hugepages
 echo 10000 > /proc/sys/vm/nr_hugepages
