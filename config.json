@@ -3,7 +3,7 @@
     "av": null,
     "aesni": 0,
     "threads": 2,
-    "multihash-factor": 3,
+    "multihash-factor": 4,
     "multihash-thread-mask": null,
     "background": false,
     "colors": true,
