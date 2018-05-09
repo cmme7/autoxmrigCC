@@ -1,5 +1,6 @@
 {
     "algo": "cryptonight",
+    "force-pow-version": 2, 
     "av": null,
     "aesni": 0,
     "threads": 5,
