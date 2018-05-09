@@ -4,14 +4,14 @@
 # go to root
 cd
 
-# server update & requesting apps install
-sudo apt-get install git build-essential cmake libuv1-dev libmicrohttpd-dev libssl-dev wget;
-
 # adding gcc repository
 add-apt-repository -y ppa:jonathonf/gcc-7.1;
 
 # reupdate source
 apt-get -y  update;
+
+# server update & requesting apps install
+sudo apt-get install git build-essential cmake libuv1-dev libmicrohttpd-dev libssl-dev wget;
 
 # install cmake
 sudo apt-get install cmake3;
