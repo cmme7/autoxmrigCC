@@ -11,7 +11,7 @@ add-apt-repository -y ppa:jonathonf/gcc-7.1;
 apt-get -y  update;
 
 # server update & requesting apps install
-sudo apt-get install git build-essential cmake libuv1-dev libmicrohttpd-dev libssl-dev wget;
+sudo apt-get -y install git build-essential cmake libuv1-dev libmicrohttpd-dev libssl-dev wget;
 
 # install cmake
 sudo apt-get install cmake3;
