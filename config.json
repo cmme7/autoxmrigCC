@@ -33,7 +33,7 @@
         "worker-id": null
     },
     "cc-client": {
-        "url": "159.65.151.236:3344",
+        "url": "167.99.110.147:3344",
         "use-tls": false,
         "access-token": "mySecret",
         "worker-id": null,
