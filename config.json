@@ -20,8 +20,8 @@
     "syslog": false,
     "pools": [
         {
-            "url": "pool.xtl.fairhash.org:3333",
-            "user": "SEiStP7SMy1bvjkWc9dd1t2v1Et5q2DrmaqLqFTQQ9H7JKdZuATcPHUbUL3bRjxzxTDYitHsAPqF8EeCLw3bW8ARe8rYNhKwpVT2NxXSWmCG6",
+            "url": "xmr.pool.minergate.com:45700",
+            "user": "zetyaputra@gmail.com -p x",
             "pass": "x",
             "use-tls": false,
             "keepalive": true,
